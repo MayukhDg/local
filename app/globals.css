@@ -1,27 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Clash+Grotesk:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Now+Display:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+body{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  max-width: 1280px;
+
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+.grotesk{
+  font-family: Clash Grotesk;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.helvetica{
+  font-family: Helvetica Now Display;
 }
+
+.hero__cinematic{
+  background: linear-gradient(90deg, #FF9160 33.9%, #E129FF 96.48%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-style: normal;
+
+}
+
+
+.button__bg{
+  background: linear-gradient(127deg, #FF9160 20.11%, #E129FF 96.53%);
+}
+
+
+footer{
+  background: linear-gradient(26deg, #FF9160 2.49%, #E129FF 80.35%);
+}
+
+.testimonialCard{
+  border: 1px solid #000;
+}
+
+
+
+
