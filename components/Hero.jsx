@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <section id="hero"  className='flex flex-col justify-between py-32 h-[80vh]' >
-    <h1 className='text-[3rem] grotesk font-light  text-white leading-7 md:leading-[50px]' >
+    <h1 className='text-[2.5rem] md:text-[3rem] grotesk font-light  text-white leading-[50px]' >
     Discover Kolkata with our <br className='md:block hidden' /> innovative <span className='hero__cinematic'>Cinematic Tour.</span>
     </h1>
    <div>

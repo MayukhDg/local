@@ -3,7 +3,7 @@ import BlogCard from './BlogCard'
 
 const Insights = () => {
   return (
-    <section id="insights" className=' px-6 py-10 bg-[#FFF] h-[80vh] flex flex-col' >
+    <section id="insights" className=' px-6 py-10 bg-[#FFF] h-fit md:h-[80vh] flex flex-col' >
     <div className='flex flex-col gap-2'>
     <h3 className=' text-4xl text-[#1B1A1A] font-bold' >Get all the <br/> local insights</h3>
     <p className='text-lg font-light' >Just a few of the best stories</p>
