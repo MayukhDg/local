@@ -3,7 +3,7 @@ import Line from './Line'
 
 const SafetyCard = ({title, content}) => {
   return (
-    <div className='py-10 gap-3 flex flex-col' >
+    <div className='py-10 gap-3 flex flex-col roboto' >
      <h4 className='text-[#282727] text-3xl' >{title}</h4>    
      <p>{content}</p>
      <Line/>
