@@ -1,10 +1,9 @@
 import React from 'react'
 
-const PCard = () => {
+const PCard = ({item}) => {
   return (
-    <div className='h-[334px] w-[300px] bg-[#D9D9D9]' >
-
-    </div>
+     <img className='h-[334px] w-[300px]' alt="image" src={item.link}  />
+   
   )
 }
 

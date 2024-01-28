@@ -8,18 +8,22 @@ import Message from '@/components/Message';
 import Discover from '@/components/Discover';
 import Insights from '@/components/Insights';
 import Testimonials from '@/components/Testimonials';
+import Goddess from '@/components/Goddess';
 
 const page = () => {
+  const visible = false;
+  
   return (
     <React.Fragment>
     <Hero/>
     <P1/>
     <P2/>
     <Education/>
+    <Goddess/>
     <Partition/>
     <Message/>
     <Discover/>
-    <Insights/>
+    { visible && <Insights/>}
     <Testimonials/>
     </React.Fragment>
   )

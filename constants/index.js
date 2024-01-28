@@ -26,3 +26,30 @@ export const SafetyContent = [{
 
 
 ] 
+
+
+
+export const productImages = [{
+  link:"/assets/img1.png"
+},
+
+{
+    link:"/assets/img2.png"
+},
+
+
+{
+    link:"/assets/img3.png"
+},
+
+
+{
+    link:"/assets/img4.png"
+},
+
+{
+    link:"/assets/img5.png"
+}
+]
+
+

@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section id="hero"  className='flex flex-col justify-between py-32 h-[80vh] max-container' >
     <h1 className='text-[2.5rem] md:text-[3rem] grotesk font-bold  text-white leading-[50px]' >
-    Discover Kolkata with our <br className='md:block hidden' /> innovative <span className='hero__cinematic font-bold'>Cinematic Tour.</span>
+    Discover Kolkata with our <br className='md:block hidden' /> innovative <span className='hero__cinematic font-bold'>Cinematic Tour</span>
     </h1>
    <div>
    <svg width="550" height="2" viewBox="0 0 732 2" fill="none" xmlns="http://www.w3.org/2000/svg">
