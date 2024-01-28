@@ -11,7 +11,7 @@ const Hero = () => {
 <path d="M0 1.06494H732" stroke="#AAAAAA"/>
 </svg>
 
-    <p className='text-[#F5F5F5] roboto leading-[25px] mt-2 helvetica font-light tracking-[-0.24px]'>Step into the world of real-time cinema where each tour unfolds with a <br/> scripted narrative  personifying the place. Locations are hand-picked based <br/>  on the storyline, and our guides become narrators, crafting a live storyboard.</p>
+    <p className='text-[#F5F5F5] leading-[25px] mt-2 montserrat font-light tracking-[-0.24px]'>Step into the world of real-time cinema where each tour unfolds with a <br/> scripted narrative  personifying the place. Locations are hand-picked based <br/>  on the storyline, and our guides become narrators, crafting a live storyboard.</p>
    </div>
     </section>
   )
