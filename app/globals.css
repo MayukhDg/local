@@ -24,8 +24,7 @@ body{
 
 
 .max-container{
-  margin: 0 auto;
-  max-width: 1280px;
+  @apply px-10 w-full
 
 }
 

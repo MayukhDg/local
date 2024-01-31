@@ -22,7 +22,7 @@ const page = () => {
     <Goddess/>
     <Partition/>
     <Message/>
-    <Discover/>
+    { visible && <Discover/>}
     { visible && <Insights/>}
     <Testimonials/>
     </React.Fragment>

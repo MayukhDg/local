@@ -3,7 +3,7 @@ import TestimonialCard from './TestimonialCard'
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className='h-fit bg-[#FFF] px-3 flex flex-col gap-2 py-5' >
+    <section id="testimonials" className='h-fit bg-[#FFF] px-10 flex flex-col gap-2 py-8' >
       <p className='text-[#FE8D66] montserrat font-bold ' >TESTIMONIALS</p>
       <h3 className=' text-4xl text-[#1B1A1A] font-bold montserrat' >What people who have <br/> taken our tour are saying</h3>
       <div className='flex flex-wrap gap-4 pt-6 justify-center'>
